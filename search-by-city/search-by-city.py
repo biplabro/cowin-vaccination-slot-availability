@@ -10,3 +10,7 @@ for state_code in range(1,40):
     for i in json_data["districts"]:
         print(i["district_id"],'\t', i["district_name"])
     print("\n")
+
+    
+    # this can be run as a standalone file as well. input command: "python search-by-city.py | grep <search word>"
+    
