@@ -1,0 +1,27 @@
+step 1
+obtained dist_ids against city name search
+725   kolkata
+141 	 Central Delhi
+145 	 East Delhi
+140 	 New Delhi
+146 	 North Delhi
+147 	 North East Delhi
+143 	 North West Delhi
+149    South Delhi
+144 	 South East Delhi
+150 	 South West Delhi
+142 	 West Delhi
+
+step 2
+store the result dist ids in an array
+
+step 3
+feed the data array to "/v2/appointment/sessions/public/findByDistrict" api
+https://apisetu.gov.in/public/marketplace/api/cowin/cowin-public-v2#/Appointment%20Availability%20APIs/findByDistrict
+
+
+step 4
+
+create request string changing the distID only
+
+https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id=143&date=31-03-2021
