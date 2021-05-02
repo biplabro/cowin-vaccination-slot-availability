@@ -12,5 +12,5 @@ for state_code in range(1,40):
     print("\n")
 
     
-    # this can be run as a standalone file as well. input command: "python search-by-city.py | grep <search word>"
+    # this can be run as a standalone file as well. input command: "python search-by-city.py | grep -i <search word>"
     
